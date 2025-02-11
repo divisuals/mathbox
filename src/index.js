@@ -12,15 +12,15 @@ import "./splash.js";
 // NOTE this import triggers the installation of all plugins as a side effect.
 import "threestrap";
 
-import * as model from "./model";
-import * as overlay from "./overlay";
-import * as primitives from "./primitives";
-import * as render from "./render";
-import * as shaders from "./shaders";
-import * as stage from "./stage";
-import * as util from "./util";
+import * as model from "./model/index.js";
+import * as overlay from "./overlay/index.js";
+import * as primitives from "./primitives/index.js";
+import * as render from "./render/index.js";
+import * as shaders from "./shaders/index.js";
+import * as stage from "./stage/index.js";
+import * as util from "./util/index.js";
 
-import { Bootstrap } from "threestrap/src/bootstrap.js";
+import { Bootstrap } from "threestrap";
 import { Context as ctx } from "./context.js";
 
 // Just because

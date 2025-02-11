@@ -7,7 +7,7 @@
  * DS207: Consider shorter variations of null checks
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
-import { Operator } from "./operator";
+import { Operator } from "./operator.js";
 
 export class Memo extends Operator {
   static initClass() {

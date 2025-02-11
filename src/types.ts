@@ -12,7 +12,7 @@ import type {
   VolumeEmitter,
   VoxelEmitter,
 } from "./primitives/types/types_typed";
-import { Classes } from "./primitives/types/classes";
+import { Classes } from "./primitives/types/classes.js";
 
 export type NodeType = keyof typeof Classes;
 

@@ -10,7 +10,7 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
 
-import { compile, selectAll } from "./css-select-adapted";
+import { compile, selectAll } from "./css-select-adapted.js";
 const AUTO = /^<([0-9]+|<*)$/;
 
 /*

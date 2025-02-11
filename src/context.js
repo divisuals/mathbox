@@ -8,13 +8,13 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
 
-import * as Model from "./model";
-import * as Overlay from "./overlay";
-import * as Primitives from "./primitives";
-import * as Render from "./render";
-import * as Shaders from "./shaders";
-import * as Stage from "./stage";
-import * as Util from "./util";
+import * as Model from "./model/index.js";
+import * as Overlay from "./overlay/index.js";
+import * as Primitives from "./primitives/index.js";
+import * as Render from "./render/index.js";
+import * as Shaders from "./shaders/index.js";
+import * as Stage from "./stage/index.js";
+import * as Util from "./util/index.js";
 
 import { PerspectiveCamera } from "three";
 

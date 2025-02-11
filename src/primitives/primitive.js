@@ -10,8 +10,8 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
 
-import * as Model from "../model";
-import { Binder } from "threestrap/src/binder.js";
+import * as Model from "../model/index.js";
+import { Binder } from "threestrap";
 
 export class Primitive {
   static initClass() {

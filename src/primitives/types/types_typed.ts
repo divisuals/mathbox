@@ -18,7 +18,7 @@ import type {
 } from "three";
 import type { MathboxNode, MathboxSelection } from "../../types";
 
-import { Types as TypesUntyped } from "./types";
+import { Types as TypesUntyped } from "./types.js";
 
 type OnInvalid = () => void;
 type Validate<In, Out> = (

@@ -5,5 +5,5 @@
  */
 export * from "./types";
 
-import * as Primitives from "./primitives";
+import * as Primitives from "./primitives/index.js";
 export { Primitives };

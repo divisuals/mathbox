@@ -1,4 +1,4 @@
-import * as types from "./types";
+import * as types from "./types/index.js";
 
 export { PrimitiveFactory as Factory } from "./factory.js";
 export * from "./primitive.js";

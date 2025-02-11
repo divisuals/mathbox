@@ -1,6 +1,6 @@
 /* eslint-disable sort-imports */
-import { Group, Inherit, Root, Unit } from "./base";
-import { Camera } from "./camera";
+import { Group, Inherit, Root, Unit } from "./base/index.js";
+import { Camera } from "./camera/index.js";
 import {
   Area,
   Array_,
@@ -10,7 +10,7 @@ import {
   Scale,
   Volume,
   Voxel,
-} from "./data";
+} from "./data/index.js";
 import {
   Axis,
   Face,
@@ -21,10 +21,10 @@ import {
   Surface,
   Ticks,
   Vector,
-} from "./draw";
-import { DOM, HTML } from "./overlay";
-import { Format, Label, Retext, Text } from "./text";
-import { Clock, Now } from "./time";
+} from "./draw/index.js";
+import { DOM, HTML } from "./overlay/index.js";
+import { Format, Label, Retext, Text } from "./text/index.js";
+import { Clock, Now } from "./time/index.js";
 import {
   Fragment,
   Layer,
@@ -32,7 +32,7 @@ import {
   Transform3,
   Transform4,
   Vertex,
-} from "./transform";
+} from "./transform/index.js";
 import {
   Clamp,
   Grow,
@@ -49,9 +49,9 @@ import {
   Subdivide,
   Swizzle,
   Transpose,
-} from "./operator";
-import { Move, Play, Present, Reveal, Slide, Step } from "./present";
-import { Compose, RTT } from "./rtt";
+} from "./operator/index.js";
+import { Move, Play, Present, Reveal, Slide, Step } from "./present/index.js";
+import { Compose, RTT } from "./rtt/index.js";
 import {
   Cartesian,
   Cartesian4,
@@ -60,9 +60,9 @@ import {
   Stereographic,
   Stereographic4,
   View,
-} from "./view";
+} from "./view/index.js";
 
-import { Shader } from "./shader";
+import { Shader } from "./shader/index.js";
 
 export const Classes = {
   axis: Axis,
